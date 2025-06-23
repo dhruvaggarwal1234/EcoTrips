@@ -1,0 +1,71 @@
+
+div img {
+    width: 350px;
+    margin-top: 20px;
+    user-select: none;
+    -webkit-user-drag: none;
+    -moz-user-select: none;
+
+}
+
+
+.logotext{
+    display: flex;
+    color: #fff;
+    height: 14px;
+    margin-top: -40px;
+    margin-left:110px;
+    font-size: 12px;
+    font-family: "Inria Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.NavLink{
+
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.Navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+div a{
+
+    font-size: 25px;
+    font-family: "Inria Serif", serif;
+  font-weight: 500;
+  align-items: center;
+  font-style: normal;
+  color: #fff;
+  margin-left: 30px;
+  text-decoration: none;
+}
+
+.outerNavlink{
+    display: flex;
+    align-items: center;
+}
+
+.Login_button{
+  background-color: #fff;
+  width: 150px;
+  height: 40px;
+  margin-right: 50px;
+  border-radius: 15px;
+  outline: none;
+  border: none;
+  color: #B35950;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Inria Serif", serif;
+  font-weight: 500;
+  padding-bottom: 5px;
+}
