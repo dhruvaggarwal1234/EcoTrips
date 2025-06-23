@@ -13,15 +13,29 @@
   background-size: 100% 100%;
   background-repeat: no-repeat;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 
 .Search_div{
  
-  margin-left: -30px;
-  margin-top: 50px;
-  background-color: black;
+  margin-left: 75px;
+  
   width:1100px;
-  height: 301px;
+}
+
+.Text_Slogan{
+  width: 370px;
+  font-size: 40px;
+    font-family: "Inria Serif", serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #fff;
+}
+
+.Search_box{
+  height: 66px;
+  width: 660px;
+  background-color: lch(48.66% 41.78 31.15);
+  box-shadow: rgb(209, 96, 86)3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
 }
