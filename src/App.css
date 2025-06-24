@@ -35,7 +35,7 @@
 .Search_box{
   display: flex;
   height: 66px;
-  width: 760px;
+  width: 830px;
   background-color: lch(48.66% 41.78 31.15);
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
   border-radius:15px ;
@@ -46,36 +46,75 @@
 
 .Search_box input{
   outline: none;
+  border: none;
   width: 100%;
-  height:  90%;
+  height:  100%;
   font-size: 20px;
   font-family: "Inria Serif", serif;
   font-weight: 500;
   font-style: italic;
-  text-align: center;
-  background-color: none;
+  background: none;
+  box-sizing: border-box;
+  position: relative;
+  left: 20px;
 }
 
 .Search_box input::placeholder{
-  text-align: center;
   font-family: "Inria Serif", serif;
   font-weight: 500;
+  position: relative;
   font-style: italic;
 }
 
+
+
 .Search_box img{
-  width: 20px;
-  height: 15px;
-  z-index: 20;
-  margin-right: -20px;
+  width: 30px;
+  height: 20px;
+  z-index: 1;
+  position: relative;
+  left:10px;
+  bottom: 10px;
+  justify-content: center;
 }
 
-.Search_box div{
 
+.Search_box div{
+background: #fff;
 width: 185px;
-max-width: fit-content;
 height: 65px;
-border: 3px solid black;
 display: flex;
+align-items: center;
 justify-content: center;
+}
+
+.Search{
+  background: none;
+
+}
+
+.Search input{
+  background: none;
+}
+
+#Search{
+  color: #fff;
+}
+
+.Location img {
+  width: 20px;
+  height: 15px;
+}
+
+.Search input{
+  width: 100px;
+  position: relative;
+  font-size: 25px;
+  left: 0px;
+}
+
+.Search img{
+  width: 40px;
+  height: 30px;
+
 }
