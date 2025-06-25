@@ -72,6 +72,10 @@
   border-top: 2px solid white;
 }
 
+.Weekend_Div{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
 
 .Weekend_Section{
@@ -80,6 +84,7 @@
   justify-content: center;
   text-align: center;
   align-content: center;
+  flex-direction: column;
 }
 
 .Weekend_Section p{
@@ -87,4 +92,128 @@
   font-weight: bold;
   font-style: normal;
   font-size: 1.75rem;
+}
+
+.Weekend_Card_img{
+background: url(./components/Other/Card/Kasoli.png);
+background-repeat: no-repeat;
+object-fit: cover;
+width: 430px;
+height: 240px;
+display: flex;
+justify-content:  space-between;
+flex-direction: column;
+overflow: hidden;
+}
+
+
+.Weekend_Card_img img{
+position: relative;
+width: 20px;
+height: 20px;
+left: -25px;
+}
+
+.Weekend_Card_main{
+
+  margin: 20px 20px;
+  width: 430px;
+  height: 290px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 25px ;
+  
+
+}
+
+.Star_div{
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: end;
+}
+
+.Trip_text{
+  width: 100%;
+  height: 20%;
+  background: rgba(1,1,1,0.5) ;
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.text_1{
+  font-size: 20px;
+  font-family: "Inria Serif", serif;
+  font-weight: bold;
+  font-style: normal;
+  margin-left: 10px;
+}
+.text_2{
+  font-size: 12px;
+  font-family: "Inria Serif", serif;
+  font-weight: 200;
+  font-style: normal;
+  margin-left: -15px;
+}
+.Marign_div{
+  margin-right: 10px;
+  font-size: 12px;
+  font-family: "Inria Serif", serif;
+  font-weight: bold;
+  color: #D9D9D9;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+
+.Price_main{
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.Price_1{
+
+  font-size: 20px;
+  font-family: "Inria Serif", serif;
+  font-weight: bold;
+  color: #000;
+}
+
+.Price_2{
+
+  font-family: "Inria Serif", serif;
+  font-weight: bold;
+  font-size: 12px;
+  color: #fff;
+  width: 100px;
+  background-color:#DC6F6C ;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.Price_2_btn{
+  font-family: "Inria Serif", serif;
+  font-weight: bold;
+  font-size: 12px;
+  color: #fff;
+  width: 100px;
+  background-color:#DC6F6C ;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+  align-items: center;
 }
