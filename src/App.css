@@ -95,7 +95,7 @@
 }
 
 .Weekend_Card_img{
-background: url(./components/Other/Card/Kasoli.png);
+
 background-repeat: no-repeat;
 object-fit: cover;
 width: 430px;
@@ -156,7 +156,8 @@ left: -25px;
   font-family: "Inria Serif", serif;
   font-weight: 200;
   font-style: normal;
-  margin-left: -15px;
+  display: flex;
+  margin-left: 10px;
 }
 .Marign_div{
   margin-right: 10px;
@@ -216,4 +217,14 @@ left: -25px;
   border-radius: 10px;
   border: none;
   align-items: center;
+}
+
+
+
+.weekend_trip{
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
 }
