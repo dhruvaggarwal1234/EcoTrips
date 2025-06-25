@@ -1,12 +1,11 @@
-*{
-  padding: 0px;
-  margin: 0px;
-
+* {
+  padding: 0rem;
+  margin: 0rem;
 }
 
-.ImgDiv{
+.ImgDiv {
   display: flex;
-  margin-top: -87px;
+  margin-top: -5.44rem; /* -87px */
   width: 100%;
   height: 80vh;
   background: url(./components/Other/Bg.png);
@@ -14,107 +13,78 @@
   background-repeat: no-repeat;
   align-items: center;
   justify-content: space-between;
+  overflow: hidden;
+  flex-direction: column;
+  
 }
 
-
-.Search_div{
- 
-  margin-left: 75px;
-  width:1100px;
-}
-
-.Text_Slogan{
-  width: 370px;
-  font-size: 40px;
-    font-family: "Inria Serif", serif;
-  font-weight: 500;
-  font-style: normal;
-  color: #fff;
-}
-
-.Search_box{
-  display: flex;
-  height: 66px;
-  width: 830px;
-  background-color: lch(48.66% 41.78 31.15);
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-  border-radius:15px ;
-  margin: 10px 10px;
-  justify-content: space-evenly;
-}
-
-
-.Search_box input{
-  outline: none;
-  border: none;
+.Main {
+  margin-top: 1.25rem; /* 20px */
   width: 100%;
-  height:  100%;
-  font-size: 20px;
-  font-family: "Inria Serif", serif;
-  font-weight: 500;
-  font-style: italic;
-  background: none;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+
+.Benfits {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  grid-auto-columns: 6.25rem; /* 100px */
   box-sizing: border-box;
-  position: relative;
-  left: 20px;
+  margin-right: 5rem;
 }
 
-.Search_box input::placeholder{
+.Benfits img {
+  width: 2.56rem; /* 25px */
+  height: 2.25rem; /* 20px */
+  margin: 0.5rem 0.5rem;
+  position: relative;
+  top: -0.25rem;
+}
+
+.Benfits p {
+  font-size: 1.25rem; /* 20px */
   font-family: "Inria Serif", serif;
   font-weight: 500;
-  position: relative;
+  color: #fff;
   font-style: italic;
 }
 
+.Benfits div{
+  display: flex;
+  flex-direction: row;
+  margin-left: 1.35rem;
+  margin-right: 1.25rem;
+  padding-bottom: 0.50rem;
+
+}
+
+.Benfits div div {
+  flex-direction: unset;
+  display: block;
+}
+
+.Benfits hr{
+  border-top: 2px solid white;
+}
 
 
-.Search_box img{
-  width: 30px;
-  height: 20px;
-  z-index: 1;
-  position: relative;
-  left:10px;
-  bottom: 10px;
+
+.Weekend_Section{
+
+  display: flex;
   justify-content: center;
+  text-align: center;
+  align-content: center;
 }
 
-
-.Search_box div{
-background: #fff;
-width: 185px;
-height: 65px;
-display: flex;
-align-items: center;
-justify-content: center;
-}
-
-.Search{
-  background: none;
-
-}
-
-.Search input{
-  background: none;
-}
-
-#Search{
-  color: #fff;
-}
-
-.Location img {
-  width: 20px;
-  height: 15px;
-}
-
-.Search input{
-  width: 100px;
-  position: relative;
-  font-size: 25px;
-  left: 0px;
-}
-
-.Search img{
-  width: 40px;
-  height: 30px;
-
+.Weekend_Section p{
+  font-family: "Inria Serif", serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 1.75rem;
 }

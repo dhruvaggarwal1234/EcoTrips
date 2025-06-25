@@ -2,13 +2,14 @@ import Search_icon from '../Other/SearchboxImg/search.png'
 import Location_icon from '../Other/SearchboxImg/shape.png'
 import Date_icon from '../Other/SearchboxImg/pinpaper-filled.png'
 import Members_icon from '../Other/SearchboxImg/user.png'
+import './Search.css'
 
 
 function Search(){
     return(
         <>
         
-        <div className='Search_div'>
+          <div className='Search_div'>
            <div className='Text_Slogan'>“Discover the world, <br /> &nbsp; keep the <span style={{color:'#B35950'}}>change”</span></div>
            <div className='Search_box'>
            <div  className='Location'><img src={Location_icon} alt="location_icon" /><input type="text" name="Location" id="Location" placeholder='Location' /></div> 
@@ -17,6 +18,7 @@ function Search(){
            <div className='Search' style={{background:'none'}}><img src={Search_icon} alt="Search_icon" /><input type="button" name="Search" id="Search"  value='Search'/>  </div> 
            </div>
            </div>
+         
         
         </>
     );

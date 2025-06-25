@@ -1,0 +1,99 @@
+.Text_Slogan {
+    width: 23.13rem; /* 370px */
+    font-size: 2.5rem; /* 40px */
+    font-family: "Inria Serif", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #fff;
+  
+    margin-left: 4.69rem; /* 75px */
+  }
+  
+  .Search_div{
+    position: relative;
+    top: 34%;
+  }
+  
+  .Search_box {
+    margin-left: 4.69rem; /* 75px */
+    display: flex;
+    height: 4.13rem; /* 66px */
+    width: 51.88rem; /* 830px */
+    background-color: lch(48.66% 41.78 31.15);
+    box-shadow: rgba(50, 50, 93, 0.25) 0rem 1.88rem 3.75rem -0.75rem inset,
+                rgba(0, 0, 0, 0.3) 0rem 1.13rem 2.25rem -1.13rem inset;
+    border-radius: 0.94rem; /* 15px */
+    margin-top: 0.94rem; /* 15px */
+    justify-content: space-evenly;
+  }
+  
+  .Search_box input {
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 100%;
+    font-size: 1.25rem; /* 20px */
+    font-family: "Inria Serif", serif;
+    justify-content: space-between;
+    font-weight: 500;
+    font-style: italic;
+    background: none;
+    box-sizing: border-box;
+    position: relative;
+    left: 1.25rem; /* 20px */
+  }
+  
+  .Search_box input::placeholder {
+    font-family: "Inria Serif", serif;
+    font-weight: 500;
+    position: relative;
+    font-style: italic;
+  }
+  
+  .Search_box img {
+    width: 1.88rem; /* 30px */
+    height: 1.25rem; /* 20px */
+    z-index: 1;
+    position: relative;
+    left: 0.63rem; /* 10px */
+    bottom: 0.63rem; /* 10px */
+    justify-content: center;
+  }
+  
+  .Search_box div {
+    background: #fff;
+    width: 11.56rem; /* 185px */
+    height: 4.06rem; /* 65px */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .Search {
+    background: none;
+  }
+  
+  .Search input {
+    background: none;
+  }
+  
+  #Search {
+    color: #fff;
+  }
+  
+  .Location img {
+    width: 1.25rem; /* 20px */
+    height: 0.94rem; /* 15px */
+  }
+  
+  .Search input {
+    width: 6.25rem; /* 100px */
+    position: relative;
+    font-size: 1.56rem; /* 25px */
+    left: 0rem;
+  }
+  
+  .Search img {
+    width: 2.5rem; /* 40px */
+    height: 1.88rem; /* 30px */
+  }
