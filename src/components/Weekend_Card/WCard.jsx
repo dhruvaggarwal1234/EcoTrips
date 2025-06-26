@@ -1,4 +1,4 @@
-
+import './Weekend.css'
 import Star from '../Other/Card/Star.png'
 
 
