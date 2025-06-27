@@ -1,0 +1,67 @@
+
+.Offbeat_Text{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    flex-direction: column;
+}
+
+.Offbeat_Text h1{
+    font-family: "Inria Serif", serif;
+    font-weight: bold;
+    color: #897D7D;
+    font-size: 45px;
+    font-style: normal;
+    
+
+}
+
+.Offbeat_Text h2 {
+    font-family: "Inria Serif", serif;
+    font-weight: bold;
+    color: #000;
+    font-size: 30px;
+    font-style: normal;
+}
+
+.Offbeat_Section{
+
+    display: flex;
+    flex-direction: column;
+}
+
+.Offbeat_Card{
+
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    justify-content: center;
+   margin-bottom: 20px;
+}
+
+.O_Outer_Card{
+    width:420px;
+    height: 220px;
+    display: flex;
+}
+
+.O_Inner_Card{
+    width: 420px;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: "Inria Serif", serif;
+    font-weight: bold;
+    color: #fff;
+    font-size: 20px;
+    font-style: normal;
+    
+
+    background: rgba(0,0,0,0.43);
+
+}

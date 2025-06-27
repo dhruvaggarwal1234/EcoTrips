@@ -1,0 +1,114 @@
+
+.Review_Text{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    flex-direction: column;
+}
+
+.Review_Text h1{
+    font-family: "Inria Serif", serif;
+    font-weight: bold;
+    color: #897D7D;
+    font-size: 45px;
+    font-style: normal;
+    
+
+}
+
+.Review_Text h2 {
+    font-family: "Inria Serif", serif;
+    font-weight: bold;
+    color: #000;
+    font-size: 30px;
+    font-style: normal;
+}
+
+.Review_Section{
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.R_Card{
+
+    display: flex;
+    width: 475px;
+    height: 375px;
+    border-radius:20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 10px 10px;
+    margin-bottom: 20px;
+    flex-direction: column;
+}
+
+.R_Outer_Card{
+
+    display: flex;
+    width: 475px;
+    height: 315px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    overflow: hidden;
+   
+
+}
+
+.R_Star img{
+    width: 20px;
+    height: 20px;
+}
+
+.R_Inner_Card{
+    width: 475px;
+    height: 315px;
+    display: flex;
+    flex-direction: column;
+    background: rgba(0,0,0,0.43);
+   
+}
+
+.R_Star{
+    display: flex;
+    justify-content: end;
+    margin-right:20px ;
+}
+
+.Review{
+    font-family: "Inria Serif", serif;
+    font-weight: bold;
+    color: #fff;
+    font-size: 20px;
+    font-style: normal;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 25px;
+    margin-top: 50px;
+    text-align: justify;
+}
+
+.R_name{
+
+    display: flex;
+    text-align: center;
+    font-family: "Inria Serif", serif;
+    font-weight: bold;
+    color: #000;
+    font-size: 25px;
+    font-style: normal;
+    width: 475px;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+}
+
+.Review_Card{
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+
+}

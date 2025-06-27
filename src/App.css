@@ -3,6 +3,9 @@
   margin: 0rem;
 }
 
+*::-webkit-scrollbar{
+  display: none;
+}
 .ImgDiv {
   display: flex;
   margin-top: -5.44rem; /* -87px */
@@ -87,7 +90,7 @@
   font-weight: bold;
   color: #000;
   font-size: 30px;
-  font-style: italic;
+  font-style: normal;
 }
 
 .Trek_div{
@@ -174,4 +177,10 @@ line-break: normal;
   flex-direction: row;
   scroll-behavior: auto;
   overflow-x: scroll;
+  scrollbar-width: none;        
+  -ms-overflow-style: none;      
+}
+
+.Trek_Div_1::-webkit-scrollbar{
+  display: none;
 }
