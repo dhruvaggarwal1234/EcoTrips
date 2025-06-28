@@ -1,5 +1,5 @@
 import "./Review.css";
-import R_Star from "../Other/Card/Star.png";
+import R_Star from "../Image/Card/Star.png";
 function RCard ({Image,Trip_name="Review Box", R_name = "Dhruv Aggarwal,20"}){
     return(
         <>

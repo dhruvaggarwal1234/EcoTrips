@@ -1,6 +1,6 @@
 
 
- import Star from '../Other/Card/Star.png'
+ import Star from '../Image/Card/Star.png'
 
 function TCard({Image, Trip_Rs="1999", Trip_name="null"}){
     return(

@@ -1,8 +1,8 @@
 import './App.css'
-import Users from './components/Other/icon/users.png'
-import Heart from './components/Other/icon/heart.png'
-import Check from './components/Other/icon/check.png'
-import explore from './components/Other/icon/explore.png'
+import Users from './components/Image/icon/users.png'
+import Heart from './components/Image/icon/heart.png'
+import Check from './components/Image/icon/check.png'
+import explore from './components/Image/icon/explore.png'
 import Search from './components/Search_box/Search'
 import WSection from './components/Weekend_Card/WSection'
 import LongWeekSection from './components/Long_Weekend/LongWeekSection'
@@ -10,7 +10,8 @@ import Treks_Section from './components/Treks/Treks_Section'
 import Explore_Section from './components/Explore/Explore_Section.jsx'
 import Offbeat_Section from './components/Offbeat/Offbeat_Section.jsx'
 import Review_Section from './components/Reviews/Review_Section.jsx'
-
+import Ecotrips from './components/EcoTrips/Ecotrips.jsx'
+import logo from './components/NAV/Img/logo.png'
 
 
 
@@ -59,10 +60,18 @@ function Homepage() {
   <LongWeekSection/>
     
     <Offbeat_Section/>
-
+    <Ecotrips/>
     <Review_Section/>
-  
+
+   
+  <footer className='footer'>
+    <div className='Logo_div'><div ><img src={logo} alt="" className='logo'  draggable="false"/>
+                   <span className='logotext'>Travel || Discover || Meet || Repeat</span>
+                </div></div>
+    <div className='Footer_link'></div>
+  </footer>
       
+
     </>
   )
 }

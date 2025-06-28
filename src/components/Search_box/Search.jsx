@@ -1,7 +1,7 @@
-import Search_icon from '../Other/SearchboxImg/search.png'
-import Location_icon from '../Other/SearchboxImg/shape.png'
-import Date_icon from '../Other/SearchboxImg/pinpaper-filled.png'
-import Members_icon from '../Other/SearchboxImg/user.png'
+import Search_icon from '../Image/SearchboxImg/search.png'
+import Location_icon from '../Image/SearchboxImg/shape.png'
+import Date_icon from '../Image/SearchboxImg/pinpaper-filled.png'
+import Members_icon from '../Image/SearchboxImg/user.png'
 import './Search.css'
 
 

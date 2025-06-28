@@ -1,10 +1,10 @@
 import Ecard from "./ECard.jsx";
 import "./Explore.css";
-import Chail from "../Other/Explore/Chail.png"
-import Shimla from "../Other/Explore/Shimla.png"
-import Rishikesh from "../Other/Explore/Rishikesh.png"
-import Dharamshala from "../Other/Explore/Dharamshala.png"
-import Dehradun from "../Other/Explore/Dehradun.png"
+import Chail from "../Image/Explore/Chail.png"
+import Shimla from "../Image/Explore/Shimla.png"
+import Rishikesh from "../Image/Explore/Rishikesh.png"
+import Dharamshala from "../Image/Explore/Dharamshala.png"
+import Dehradun from "../Image/Explore/Dehradun.png"
 
 
 function Explore_Section(){

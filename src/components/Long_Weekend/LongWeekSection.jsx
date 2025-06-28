@@ -1,11 +1,11 @@
 import './Long_Weekend.css'
 import LWeekCard from './LWeekCard';
-import Rishikesh from '../Other/LONGWCARD/Rishikesh.png'
-import HatuPeak from '../Other/LONGWCARD/HatuPeak.png'
-import Dharamshala from '../Other/LONGWCARD/Dharamshala.png'
-import Kullu from '../Other/LONGWCARD/Kullu.png'
-import Mussoorie from '../Other/LONGWCARD/Mussoorie.png'
-import Nainital from '../Other/LONGWCARD/Nainital.png'
+import Rishikesh from '../Image/LONGWCARD/Rishikesh.png'
+import HatuPeak from '../Image/LONGWCARD/HatuPeak.png'
+import Dharamshala from '../Image/LONGWCARD/Dharamshala.png'
+import Kullu from '../Image/LONGWCARD/Kullu.png'
+import Mussoorie from '../Image/LONGWCARD/Mussoorie.png'
+import Nainital from '../Image/LONGWCARD/Nainital.png'
 function LongWeekSection(){
 
     return(

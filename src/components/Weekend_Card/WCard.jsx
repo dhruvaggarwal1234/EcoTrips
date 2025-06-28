@@ -1,5 +1,5 @@
 import './Weekend.css'
-import Star from '../Other/Card/Star.png'
+import Star from '../Image/Card/Star.png'
 
 
 function WCard({Trip_name ,Image , Trip_time="2 Days, 1 Night" , Trip_highway="Exp. Chandigarh,Delhi" ,Trip_price="2499"}){

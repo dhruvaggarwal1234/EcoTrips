@@ -1,5 +1,5 @@
 import './Long_Weekend.css'
-import Star from '../Other/Card/Star.png'
+import Star from '../Image/Card/Star.png'
 
 function LWeekCard({Trip_name='Nanital, Jim Corbett  +5 more.....' ,Image, Trip_time="3 Days, 2 Night" , Trip_highway="Exp. Chandigarh,Delhi" ,Trip_price="2999"}){
 

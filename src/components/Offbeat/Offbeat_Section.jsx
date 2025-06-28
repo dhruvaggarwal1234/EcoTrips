@@ -1,9 +1,9 @@
 import './Offbeat.css';
 import OCard from './OCard.jsx'
-import Haripurdhar from '../Other/Offbeat/Haripurdhar.png'
-import Jibhi from "../Other/Offbeat/Jibhi.png"
-import Palampur from "../Other/Offbeat/Palampur.png"
-import Koksar  from "../Other/Offbeat/Koksar.png"
+import Haripurdhar from '../Image/Offbeat/Haripurdhar.png'
+import Jibhi from "../Image/Offbeat/Jibhi.png"
+import Palampur from "../Image/Offbeat/Palampur.png"
+import Koksar  from "../Image/Offbeat/Koksar.png"
 
 function Offbeat_Section(){
 

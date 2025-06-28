@@ -11,7 +11,7 @@
   margin-top: -5.44rem; /* -87px */
   width: 100%;
   height: 80vh;
-  background: url(./components/Other/Bg.png);
+  background: url(./components/Image/Bg.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   align-items: center;
@@ -22,7 +22,9 @@
 }
 
 .Main {
-  margin-top: 1.25rem; /* 20px */
+  background: rgba(0, 0, 0, 0.25);
+  background-position-y: -5.44rem;
+  background-size: 110% 110% ;
   width: 100%;
   display: flex;
   flex: 1;
@@ -183,4 +185,28 @@ line-break: normal;
 
 .Trek_Div_1::-webkit-scrollbar{
   display: none;
+}
+
+.footer{
+  width: 100%;
+  height: 135px;
+  margin-top: 70px;
+  margin-bottom:20px;
+  background-color: #DC6F6C;
+  box-shadow: rgba(50, 50, 93, 0.25) 0rem 1.88rem 3.75rem -0.75rem inset,
+  rgba(0, 0, 0, 0.3) 0rem 1.13rem 2.25rem -1.13rem inset;
+  display: flex;
+  justify-content: center;
+}
+
+.Footer_link{
+  height: 135px;
+  width: 690px;
+  background-color: #fff;
+}
+
+.Logo_div{
+  margin-right: 20px;
+  position: relative;
+  left:200px;
 }

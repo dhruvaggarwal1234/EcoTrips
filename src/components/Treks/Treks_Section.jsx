@@ -1,9 +1,9 @@
 import TCard from './TCard.jsx'
-import ChandraShila from '../Other/Treks/ChandraShila.png'
-import Triund from "../Other/Treks/Triund.png"
-import KedarKantha from "../Other/Treks/KedarKantha.png"
-import DayaraBugyal from "../Other/Treks/DayaraBugyal.png"
-import KareriLakes from "../Other/Treks/KareriLakes.png"
+import ChandraShila from '../Image/Treks/ChandraShila.png'
+import Triund from "../Image/Treks/Triund.png"
+import KedarKantha from "../Image/Treks/KedarKantha.png"
+import DayaraBugyal from "../Image/Treks/DayaraBugyal.png"
+import KareriLakes from "../Image/Treks/KareriLakes.png"
 
 
 function Treks_Section(){
