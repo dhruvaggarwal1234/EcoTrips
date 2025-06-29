@@ -12,7 +12,12 @@ import Offbeat_Section from './components/Offbeat/Offbeat_Section.jsx'
 import Review_Section from './components/Reviews/Review_Section.jsx'
 import Ecotrips from './components/EcoTrips/Ecotrips.jsx'
 import logo from './components/NAV/Img/logo.png'
-
+import F from './components/Image/logo/F.png'
+import I from './components/Image/logo/I.png'
+import T from './components/Image/logo/T.png'
+import W from './components/Image/logo/W.png'
+import L from './components/Image/logo/L.png'
+import G from './components/Image/logo/G.png'
 
 
 function Homepage() {
@@ -68,7 +73,14 @@ function Homepage() {
     <div className='Logo_div'><div ><img src={logo} alt="" className='logo'  draggable="false"/>
                    <span className='logotext'>Travel || Discover || Meet || Repeat</span>
                 </div></div>
-    <div className='Footer_link'></div>
+    <div className='Footer_link'>
+      <img src={F} alt="" className='F' />
+      <img src={I} alt="" className='I' />
+      <img src={T} alt="" className='T' />
+      <img src={W} alt="" className='W' />
+      <img src={L} alt="" className='L' />
+      <img src={G} alt="" className='G' />
+    </div>
   </footer>
       
 
