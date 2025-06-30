@@ -8,11 +8,11 @@
 }
 .ImgDiv {
   display: flex;
-  margin-top: -5.44rem; /* -87px */
+  margin-top: -5.44rem; 
   width: 100%;
   height: 80vh;
   background: url(./components/Image/Bg.png);
-  background-size: 100% 100%;
+  background-size: 100% 101%;
   background-repeat: no-repeat;
   align-items: center;
   justify-content: space-between;
@@ -38,21 +38,21 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-  grid-auto-columns: 6.25rem; /* 100px */
+  grid-auto-columns: 6.25rem; 
   box-sizing: border-box;
   margin-right: 5rem;
 }
 
 .Benfits img {
-  width: 2.56rem; /* 25px */
-  height: 2.25rem; /* 20px */
+  width: 2.56rem;
+  height: 2.25rem; 
   margin: 0.5rem 0.5rem;
   position: relative;
   top: -0.25rem;
 }
 
 .Benfits p {
-  font-size: 1.25rem; /* 20px */
+  font-size: 1.25rem;
   font-family: "Inria Serif", serif;
   font-weight: 500;
   color: #fff;
@@ -217,30 +217,36 @@ line-break: normal;
 .F{
   width: 66px;
   height: 66px;
+  margin: auto auto;
 }
 
 .I{
 width: 135px;
 height: 90px;
-margin-left: 0px;
+margin: auto 0px; 
 }
 
 .T{
   width: 64px;
   height: 64px;
+  margin: auto auto;
 }
 
 .W{
   width: 66px;
   height: 66px;
+  margin: auto auto;
 }
 
 .L{
   width: 112px;
   height: 112px;
+  margin: auto 0px;
 }
 
 .G{
   width: 81px;
   height: 81px;
+  margin: auto auto;
+  border-image: rgba(0, 0, 0, 0.25) 0px 4px 4px;
 }

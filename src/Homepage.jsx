@@ -24,6 +24,7 @@ function Homepage() {
 
   return (
     <>
+
       <div className='ImgDiv'> 
       <div className='Main'>
         <Search/>

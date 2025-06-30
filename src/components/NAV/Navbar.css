@@ -34,6 +34,8 @@ div img {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    z-index: 100;
+    position: relative;
     
 }
 
@@ -68,4 +70,8 @@ div a{
   font-family: "Inria Serif", serif;
   font-weight: 500;
   padding-bottom: 5px;
+}
+
+.Login_button:hover{
+  background-color: #B35950;
 }
