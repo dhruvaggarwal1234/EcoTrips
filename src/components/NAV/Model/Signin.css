@@ -1,72 +1,192 @@
+/* === Overlay background === */
 .body {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    background: rgba(0, 0, 0, 0.6); /* Transparent dark background */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 100;
-    
-  }
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6); /* Transparent dark background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
 
-.div1{
-  background: url(../Img/Signin.png);
-  width: 340px;
+/* === Left panel (image background) === */
+.div1 {
+  background: url(/src/components/NAV/Img/Signin.png);
+  width: 300px;
   height: 440px;
   border-radius: 30px 0px 0px 30px;
   background-repeat: no-repeat;
-  background-size: 102% 101%;
+  background-size: cover;
+  display: flex;
+  background-position-x: right;
+  position: relative;
+  left: 4px;
 }
-  
-.div1_main{
+
+.div1_main {
   background-color: rgba(0, 0, 0, 0.6);
-  width: 100%;
+  width: 98.7%;
   height: 100%;
   background-size: contain;
-  background-position-x: left;
   border-radius: 30px 0px 0px 30px;
-
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
 }
-.div2{
+
+/* === Right panel === */
+.div2 {
   width: 440px;
   height: 490px;
   background-color: white;
   border-radius: 0px 30px 30px 0px;
-
 }
-.Closebutton{
 
+/* === Close button === */
+.Closebutton {
   background: transparent;
   color: white;
   height: 40px;
   width: 40px;
   border: none;
   font-size: 40px;
+  cursor: pointer;
 }
 
-.Main_sign{
-display: flex;
-justify-content: center;
-align-items: center;
+.Main_sign {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.Close_div{
-display: flex;
-align-items: flex-start;
-height:  500px;
+.Close_div {
+  display: flex;
+  align-items: flex-start;
+  height: 500px;
 }
 
-.Sign_logo{
+/* === Logo === */
+.Sign_logo {
+  height: 40px;
+  width: 180px;
+}
 
-  height: 27px;
-  width: 180px ;
+.Sign_logo img {
+  height: 40px;
+  width: 180px;
+}
+
+/* === Slogan text === */
+.Sign_Slogan {
+  font-size: 20px;
+  font-family: Inria Serif;
+  font-weight: bold;
+  color: white;
+  width: 219px;
+  height: 66px;
+  line-height: 30px;
+}
+
+.Sign_box_Slogan {
+  font-size: 25px;
+  font-family: Inria Serif;
+  font-weight: bold;
+  color: white;
+  width: 219px;
+  height: 93px;
+  line-height: 30px;
+  border: 3px solid white;
+  text-align: center;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+/* === Nav dots container (below logo) === */
+.nav-container {
+  width: 90px;
+  height: 22px;
+  border-radius: 11px;
+  background-color: rgba(255, 255, 255, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5px;
+  box-shadow: 
+    rgb(0 0 0 / 0.5) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.nav-arrow {
+  font-size: 20px;
+  font-weight: bolder;
+  color: #333;
+  cursor: pointer;
+  user-select: none;
+  border: none;
+  background: transparent;
+}
+
+.nav-dot {
+  width: 8px;
+  height: 8px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 50%;
+}
+
+
+.Container_tab {
+  display: flex;
+  margin-top: 40px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+
+.Container_tab button {
+  height: 37px;
+  width: 162px;
+  color: white;
+  background-color: #DC6F6C;
+  font-size: 12px;
+  font-family: Inria Serif;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: box-shadow 180ms, transform 120ms, background 180ms;
+  user-select: none;
 
 }
 
-.Sign_logo img{
-  height: 27px;
-  width: 180px ;
+
+.Create_button {
+  border-radius: 20px 0px 0px 20px;
+}
+
+.Login_button_tab {
+  border-radius: 0px 20px 20px 0px;
+}
+
+
+.Create_button.active,
+.Login_button_tab.active {
+  background: rgb(199, 95, 95); 
+  color: #fff;
+  transform: translateY(0.5px);
+  box-shadow:
+    inset 3px 3px 6px rgba(0,0,0 ,0.3),
+    inset -3px -3px 6px rgba(199, 95, 95);
+}
+
+
+.tab-content{
+  justify-content: center;
+  align-items: center; 
+  display: flex;
+  flex-direction: column;
+
 }

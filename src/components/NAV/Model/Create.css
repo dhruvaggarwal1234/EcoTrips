@@ -1,0 +1,280 @@
+/* ========== your original / base rules (kept & consolidated) ========== */
+
+.ml-label {
+    font-weight: bold;
+    margin-bottom: 6px;
+    font-size: 16px;
+  }
+  
+  .Login_box {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 30px 30px 0px 30px;
+    flex-direction: column;
+    gap: 12px;
+    width: 85%;
+  }
+  
+  /* wrapper (kept) */
+  .phone-input-wrap {
+    display: flex;
+    gap: 6px;
+  }
+  
+  /* not used with react-phone-input-2 but kept in case you use it elsewhere */
+  .country-box {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+    border: 1px solid #666;
+    border-radius: 8px;
+    background: #fafafa;
+    font-size: 14px;
+    min-width: 80px;
+    justify-content: center;
+  }
+  
+  /* Button style you had */
+  .continue-btn {
+    margin-top: 10px;
+    height: 45px;
+    border: none;
+    border-radius: 8px;
+    background: #d3d3d3;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+  }
+  
+  /* login button (kept) */
+  .login-button {
+    margin: 15px 20px 0px 30px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background: #d3d3d3;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    box-shadow: 0.5px 3.5px 2px rgba(0, 0, 0, 0.2);
+    width: 89%;
+  }
+  
+  /* or / social / footer kept as-is */
+  .or-row {
+    display: flex;
+    align-items: center;
+    margin: 20px 0px 15px 0px;
+    font-size: 13px;
+    color: #777;
+  }
+  .or-row .line {
+    flex: 1;
+    height: 1px;
+    width: 146px;
+    background: #ccc;
+    margin-left: 10px;
+  }
+  .or-text {
+    margin: 0 8px;
+    font-size: 10px;
+  }
+  .social-row {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 20px;
+  }
+  .social-btn {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: none;
+    background: #fff;
+    box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .footer-text {
+    font-size: 10px;
+    color: #555;
+    text-align: center;
+    line-height: 1.4;
+    margin-top: 50px;
+  }
+  .footer-text a {
+    color: #00aaff;
+    text-decoration: none;
+    font-size: 10px;
+    margin: 0px;
+  }
+  
+  /* ========== react-phone-input-2 overrides (needed for the design) ========== */
+  
+  /* containerClass set to "phone-input-container" in JSX */
+  .phone-input-container {
+    max-width: 520px;
+    width: 100%;
+    margin: 0;
+    position: relative;
+    display: block;
+  }
+  
+  /* wrapper used by the library */
+  .phone-input-container .react-tel-input {
+    position: relative;
+    width: 100%;
+  }
+  
+  /* Left white flag box that sits visually on top of the input.
+     The library's flag button is .flag-dropdown; style it to match screenshot. */
+  .phone-input-container .react-tel-input .flag-dropdown {
+    position: absolute;
+    left: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 56px; /* taller to match screenshot appearance */
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 10px;
+    border-radius: 10px;
+    background: #ffffff;
+    border: 2px solid rgba(127,111,111,0.95);
+    box-shadow: 0 6px 10px rgba(0,0,0,0.06);
+    z-index: 5;
+    cursor: pointer;
+  }
+  
+  /* keep flag + tiny caret compact */
+  .phone-input-container .react-tel-input .flag-dropdown .selected-flag {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  /* Hide long country name inside the selected area (we only want flag) */
+  .phone-input-container .react-tel-input .flag-dropdown .country-name {
+    display: none;
+  }
+  
+  /* style the flag image/emoji so it looks like the small rectangle from screenshot */
+  .phone-input-container .react-tel-input .flag-dropdown .iti-flag,
+  .phone-input-container .react-tel-input .flag-dropdown span {
+    display: inline-block;
+    width: 28px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 18px;
+    border-radius: 2px;
+    overflow: hidden;
+    vertical-align: middle;
+  }
+  
+  /* the actual input (you set inputClass="phone-input") */
+  /* made taller + left padding to leave space for the flag box */
+  .phone-input {
+    width: 100% !important;
+    height: 56px; /* match flag height for a single-box look */
+    padding: 12px 16px;
+    padding-left: 120px !important; /* space for left flag box */
+    border-radius: 12px !important;
+    border: 2px solid #7f6f6f !important;
+    background: #fff;
+    font-size: 15px;
+    color: #6f6161;
+    box-shadow: inset 0 4px 10px rgba(0,0,0,0.03);
+    transition: box-shadow .12s ease, border-color .12s ease;
+    outline: none;
+    box-sizing: border-box;
+  }
+  
+  /* placeholder style similar to screenshot */
+  .phone-input::placeholder {
+    color: #bfb6b6;
+    font-style: italic;
+    text-shadow: 0 2px 6px rgba(0,0,0,0.06);
+  }
+  
+  /* blue focus ring to match your screenshot */
+  .phone-input:focus {
+    border-color: #2b90e2 !important;
+    box-shadow:
+      inset 0 4px 10px rgba(0,0,0,0.03),
+      0 0 0 5px rgba(43,144,226,0.08);
+  }
+  
+  /* when dropdown opens, make the left box appear active */
+  .phone-input-container .react-tel-input .flag-dropdown.open,
+  .phone-input-container .react-tel-input .flag-dropdown:focus {
+    border-color: #6b5a5a;
+    box-shadow: 0 8px 14px rgba(0,0,0,0.08);
+  }
+  
+  /* country list (dropdown) - visually aligned under the left box */
+  .phone-input-container .react-tel-input .country-list {
+    position: absolute;
+    left: 8px;
+    top: calc(100% + 10px);
+    width: 360px;
+    max-width: calc(100% - 16px);
+    background: #fff;
+    border: 1px solid #e6e2e2;
+    box-shadow: 0 12px 28px rgba(0,0,0,0.08);
+    border-radius: 8px;
+    padding: 6px;
+    z-index: 80;
+    max-height: 260px;
+    overflow: auto;
+  }
+  
+  /* each option row */
+  .phone-input-container .react-tel-input .country-list .country {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 10px;
+    cursor: pointer;
+    border-radius: 6px;
+  }
+  .phone-input-container .react-tel-input .country-list .country:hover {
+    background: #f6f6f6;
+  }
+  
+  /* ========== keep your responsive rules ========== */
+  @media (max-width: 520px) {
+    .phone-input-wrap {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 10px;
+    }
+    .country-code, .flags-select-wrapper .react-flags-select .selected-flag {
+      width: 100%;
+    }
+    /* ensure input fits on small screens */
+    .phone-input {
+      padding-left: 110px !important;
+      height: 52px;
+      width: 100% !important;
+    }
+    .phone-input-container .react-tel-input .flag-dropdown {
+      left: 6px;
+      padding: 6px 8px;
+      height: 52px;
+    }
+    .phone-input-container .react-tel-input .flag-dropdown .iti-flag {
+      width: 24px;
+      height: 16px;
+      font-size: 16px;
+    }
+    .phone-input-container .react-tel-input .country-list {
+      left: 6px;
+      width: calc(100% - 12px);
+    }
+  }
+  
